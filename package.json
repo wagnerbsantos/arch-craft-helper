@@ -2,7 +2,7 @@
   "name": "arch-craft-helper",
   "packageManager": "yarn@3.2.0",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8080 react-scripts start",
     "build": "react-scripts build"
   },
   "dependencies": {
