@@ -4,6 +4,7 @@ export interface Recipe {
   description: string
   loot: Loot[]
   components: Recipe[]
+  tier: number
 }
 
 export interface Loot {

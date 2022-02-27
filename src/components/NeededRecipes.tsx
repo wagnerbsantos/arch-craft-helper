@@ -2,6 +2,7 @@ import { VFlow } from 'bold-ui'
 import { Recipe } from '../model/model'
 import { RecipeBox } from './RecipeBox'
 import { RecipeList } from './RecipeList'
+import { RecipeTree } from './RecipeTree'
 
 export interface NeededRecipesProps {
   selectedRecipes: Recipe[]
@@ -13,8 +14,7 @@ export const NeededRecipes = (props: NeededRecipesProps) => {
   const { selectedRecipes, ownedRecipes, handleClick } = props
   const neededRecipes = neededBaseCalculator(selectedRecipes, [...ownedRecipes])
   const neededTree = neededTreeCalculator(selectedRecipes, [...ownedRecipes])
-  console.log(selectedRecipes)
-  return <RecipeList recipeList={neededRecipes} id={'NeededRecipes'} handleClick={handleClick} />
+  return <RecipeTree recipeList={neededTree} id={'NeededRecipes'} handleClick={handleClick} />
 }
 
 const neededTreeCalculator = (selectedRecipes: Recipe[], ownedRecipes: Recipe[]): Map<Recipe, Map<any, any>> => {
@@ -22,6 +22,7 @@ const neededTreeCalculator = (selectedRecipes: Recipe[], ownedRecipes: Recipe[])
   selectedRecipes.forEach((recipe) => {
     const foundIndex = ownedRecipes.findIndex((owned) => owned.id === recipe.id)
     if (foundIndex !== -1) {
+      console.log('bugou')
       ownedRecipes.splice(foundIndex, 1)
     } else {
       if (recipe.components.length === 0) {

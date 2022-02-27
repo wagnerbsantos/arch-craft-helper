@@ -6,6 +6,7 @@ export const HASTED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const BERSERKER: Recipe = {
@@ -14,6 +15,7 @@ export const BERSERKER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const JUGGERNAUT: Recipe = {
@@ -22,6 +24,7 @@ export const JUGGERNAUT: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const ECHOIST: Recipe = {
@@ -30,6 +33,7 @@ export const ECHOIST: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const TOXIC: Recipe = {
@@ -38,6 +42,7 @@ export const TOXIC: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const STEEL_INFUSED: Recipe = {
@@ -46,6 +51,7 @@ export const STEEL_INFUSED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const BOMBARDIER: Recipe = {
@@ -54,6 +60,7 @@ export const BOMBARDIER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const MALEDICTION: Recipe = {
@@ -62,6 +69,7 @@ export const MALEDICTION: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const CONSECRATOR: Recipe = {
@@ -70,6 +78,7 @@ export const CONSECRATOR: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const BONEBREAKER: Recipe = {
@@ -78,6 +87,7 @@ export const BONEBREAKER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const BLOODLETTER: Recipe = {
@@ -86,6 +96,7 @@ export const BLOODLETTER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const FROSTWEAVER: Recipe = {
@@ -94,6 +105,7 @@ export const FROSTWEAVER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const FLAMEWEAVER: Recipe = {
@@ -102,6 +114,7 @@ export const FLAMEWEAVER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const STORMWEAVER: Recipe = {
@@ -110,6 +123,7 @@ export const STORMWEAVER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const ARCANE_BUFFER: Recipe = {
@@ -118,6 +132,7 @@ export const ARCANE_BUFFER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const DYNAMO: Recipe = {
@@ -126,6 +141,7 @@ export const DYNAMO: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const CHAOSWEAVER: Recipe = {
@@ -134,6 +150,7 @@ export const CHAOSWEAVER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const SENTINEL: Recipe = {
@@ -142,6 +159,7 @@ export const SENTINEL: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const PERMAFROST: Recipe = {
@@ -150,6 +168,7 @@ export const PERMAFROST: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const INCENDIARY: Recipe = {
@@ -158,6 +177,7 @@ export const INCENDIARY: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const GARGANTUAN: Recipe = {
@@ -166,6 +186,7 @@ export const GARGANTUAN: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const VAMPIRIC: Recipe = {
@@ -174,6 +195,7 @@ export const VAMPIRIC: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const DEADEYE: Recipe = {
@@ -182,6 +204,7 @@ export const DEADEYE: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const FRENZIED: Recipe = {
@@ -190,6 +213,7 @@ export const FRENZIED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const SOUL_CONDUIT: Recipe = {
@@ -198,6 +222,7 @@ export const SOUL_CONDUIT: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const OVERCHARGED: Recipe = {
@@ -206,6 +231,7 @@ export const OVERCHARGED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [],
+  tier: 1,
 }
 
 export const ASSASSIN: Recipe = {
@@ -214,6 +240,7 @@ export const ASSASSIN: Recipe = {
   description: 'asdf',
   loot: [],
   components: [DEADEYE, VAMPIRIC],
+  tier: 2,
 }
 
 export const DROUGHT_BRINGER: Recipe = {
@@ -222,6 +249,7 @@ export const DROUGHT_BRINGER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [MALEDICTION, DEADEYE],
+  tier: 2,
 }
 
 export const FLAME_STRIDER: Recipe = {
@@ -230,6 +258,7 @@ export const FLAME_STRIDER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [FLAMEWEAVER, HASTED],
+  tier: 2,
 }
 
 export const HEXER: Recipe = {
@@ -238,6 +267,7 @@ export const HEXER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [CHAOSWEAVER, ECHOIST],
+  tier: 2,
 }
 
 export const MANA_SIPHONER: Recipe = {
@@ -246,6 +276,7 @@ export const MANA_SIPHONER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [CONSECRATOR, DYNAMO],
+  tier: 2,
 }
 
 export const NECROMANCER: Recipe = {
@@ -254,6 +285,7 @@ export const NECROMANCER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [BOMBARDIER, OVERCHARGED],
+  tier: 2,
 }
 
 export const CORPSE_DETONATOR: Recipe = {
@@ -262,6 +294,7 @@ export const CORPSE_DETONATOR: Recipe = {
   description: 'asdf',
   loot: [],
   components: [NECROMANCER, INCENDIARY],
+  tier: 3,
 }
 
 export const ENTANGLER: Recipe = {
@@ -270,6 +303,7 @@ export const ENTANGLER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [TOXIC, BLOODLETTER],
+  tier: 2,
 }
 
 export const FROST_STRIDER: Recipe = {
@@ -278,6 +312,7 @@ export const FROST_STRIDER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [FROSTWEAVER, HASTED],
+  tier: 2,
 }
 
 export const ICE_PRISON: Recipe = {
@@ -286,6 +321,7 @@ export const ICE_PRISON: Recipe = {
   description: 'asdf',
   loot: [],
   components: [PERMAFROST, SENTINEL],
+  tier: 2,
 }
 
 export const MIRROR_IMAGE: Recipe = {
@@ -294,6 +330,7 @@ export const MIRROR_IMAGE: Recipe = {
   description: 'asdf',
   loot: [],
   components: [ECHOIST, SOUL_CONDUIT],
+  tier: 2,
 }
 
 export const CORRUPTER: Recipe = {
@@ -302,6 +339,7 @@ export const CORRUPTER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [BLOODLETTER, CHAOSWEAVER],
+  tier: 2,
 }
 
 export const EXECUTIONER: Recipe = {
@@ -310,6 +348,7 @@ export const EXECUTIONER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [FRENZIED, BERSERKER],
+  tier: 2,
 }
 
 export const HERALDING_MINIONS: Recipe = {
@@ -318,6 +357,7 @@ export const HERALDING_MINIONS: Recipe = {
   description: 'asdf',
   loot: [],
   components: [DYNAMO, ARCANE_BUFFER],
+  tier: 2,
 }
 
 export const MAGMA_BARRIER: Recipe = {
@@ -326,6 +366,7 @@ export const MAGMA_BARRIER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [INCENDIARY, BONEBREAKER],
+  tier: 2,
 }
 
 export const REJUVENATING: Recipe = {
@@ -334,6 +375,7 @@ export const REJUVENATING: Recipe = {
   description: 'asdf',
   loot: [],
   components: [GARGANTUAN, VAMPIRIC],
+  tier: 2,
 }
 
 export const STORM_STRIDER: Recipe = {
@@ -342,6 +384,7 @@ export const STORM_STRIDER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [STORMWEAVER, HASTED],
+  tier: 2,
 }
 
 export const ARAKAALI_TOUCHED: Recipe = {
@@ -350,6 +393,7 @@ export const ARAKAALI_TOUCHED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [CORPSE_DETONATOR, ENTANGLER, ASSASSIN],
+  tier: 4,
 }
 
 export const EFFIGY: Recipe = {
@@ -358,6 +402,7 @@ export const EFFIGY: Recipe = {
   description: 'asdf',
   loot: [],
   components: [HEXER, MALEDICTION, CORRUPTER],
+  tier: 3,
 }
 
 export const EVOCATIONIST: Recipe = {
@@ -366,6 +411,7 @@ export const EVOCATIONIST: Recipe = {
   description: 'asdf',
   loot: [],
   components: [FLAMEWEAVER, FROSTWEAVER, STORMWEAVER],
+  tier: 2,
 }
 
 export const SOUL_EATER: Recipe = {
@@ -374,6 +420,7 @@ export const SOUL_EATER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [SOUL_CONDUIT, NECROMANCER, GARGANTUAN],
+  tier: 3,
 }
 
 export const SHAKARI_TOUCHED: Recipe = {
@@ -382,6 +429,7 @@ export const SHAKARI_TOUCHED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [ENTANGLER, SOUL_EATER, DROUGHT_BRINGER],
+  tier: 3,
 }
 
 export const BRINE_KING_TOUCHED: Recipe = {
@@ -390,6 +438,7 @@ export const BRINE_KING_TOUCHED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [ICE_PRISON, STORM_STRIDER, HERALDING_MINIONS],
+  tier: 3,
 }
 
 export const EMPOWERED_ELEMENTS: Recipe = {
@@ -398,6 +447,7 @@ export const EMPOWERED_ELEMENTS: Recipe = {
   description: 'asdf',
   loot: [],
   components: [EVOCATIONIST, STEEL_INFUSED, CHAOSWEAVER],
+  tier: 3,
 }
 
 export const INVULNERABLE: Recipe = {
@@ -406,6 +456,7 @@ export const INVULNERABLE: Recipe = {
   description: 'asdf',
   loot: [],
   components: [SENTINEL, JUGGERNAUT, CONSECRATOR],
+  tier: 2,
 }
 
 export const EMPOWERING_MINIONS: Recipe = {
@@ -414,6 +465,7 @@ export const EMPOWERING_MINIONS: Recipe = {
   description: 'asdf',
   loot: [],
   components: [NECROMANCER, EXECUTIONER, GARGANTUAN],
+  tier: 2,
 }
 
 export const SOLARIS_TOUCHED: Recipe = {
@@ -422,6 +474,7 @@ export const SOLARIS_TOUCHED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [INVULNERABLE, MAGMA_BARRIER, EMPOWERING_MINIONS],
+  tier: 4,
 }
 
 export const ABBERATH_TOUCHED: Recipe = {
@@ -430,6 +483,7 @@ export const ABBERATH_TOUCHED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [FLAME_STRIDER, FRENZIED, REJUVENATING],
+  tier: 3,
 }
 
 export const CRYSTAL_SKINNED: Recipe = {
@@ -438,6 +492,7 @@ export const CRYSTAL_SKINNED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [PERMAFROST, REJUVENATING, BERSERKER],
+  tier: 3,
 }
 
 export const LUNARIS_TOUCHED: Recipe = {
@@ -446,6 +501,7 @@ export const LUNARIS_TOUCHED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [INVULNERABLE, FROST_STRIDER, EMPOWERING_MINIONS],
+  tier: 4,
 }
 
 export const TEMPORAL_BUBBLE: Recipe = {
@@ -454,6 +510,7 @@ export const TEMPORAL_BUBBLE: Recipe = {
   description: 'asdf',
   loot: [],
   components: [JUGGERNAUT, HEXER, ARCANE_BUFFER],
+  tier: 3,
 }
 
 export const TREANT_HORDE: Recipe = {
@@ -462,6 +519,7 @@ export const TREANT_HORDE: Recipe = {
   description: 'asdf',
   loot: [],
   components: [TOXIC, SENTINEL, STEEL_INFUSED],
+  tier: 2,
 }
 
 export const TRICKSTER: Recipe = {
@@ -470,6 +528,7 @@ export const TRICKSTER: Recipe = {
   description: 'asdf',
   loot: [],
   components: [OVERCHARGED, ASSASSIN, ECHOIST],
+  tier: 3,
 }
 
 export const TUKOHAMA_TOUCHED: Recipe = {
@@ -478,6 +537,7 @@ export const TUKOHAMA_TOUCHED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [BONEBREAKER, EXECUTIONER, MAGMA_BARRIER],
+  tier: 3,
 }
 
 export const INNOCENCE_TOUCHED: Recipe = {
@@ -486,6 +546,7 @@ export const INNOCENCE_TOUCHED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [LUNARIS_TOUCHED, SOLARIS_TOUCHED, MIRROR_IMAGE, MANA_SIPHONER],
+  tier: 5,
 }
 
 export const KITAVA_TOUCHED: Recipe = {
@@ -494,71 +555,70 @@ export const KITAVA_TOUCHED: Recipe = {
   description: 'asdf',
   loot: [],
   components: [TUKOHAMA_TOUCHED, ABBERATH_TOUCHED, CORRUPTER, CORPSE_DETONATOR],
+  tier: 4,
 }
 
 export const recipeList: Recipe[] = [
-  ASSASSIN,
+  //tier 1
+  ARCANE_BUFFER,
+  BERSERKER,
+  CHAOSWEAVER,
   DEADEYE,
   VAMPIRIC,
-  DROUGHT_BRINGER,
   MALEDICTION,
-  FLAME_STRIDER,
   FLAMEWEAVER,
+  FRENZIED,
+  GARGANTUAN,
   HASTED,
-  HEXER,
+  JUGGERNAUT,
+  OVERCHARGED,
+  PERMAFROST,
+  STEEL_INFUSED,
   CHAOSWEAVER,
   ECHOIST,
-  MANA_SIPHONER,
   CONSECRATOR,
   DYNAMO,
-  CORPSE_DETONATOR,
-  NECROMANCER,
   INCENDIARY,
-  ENTANGLER,
   TOXIC,
   BLOODLETTER,
-  FROST_STRIDER,
   FROSTWEAVER,
-  ICE_PRISON,
   PERMAFROST,
   SENTINEL,
-  MIRROR_IMAGE,
   SOUL_CONDUIT,
+  MIRROR_IMAGE,
   CORRUPTER,
-  BERSERKER,
+  ASSASSIN,
+  DROUGHT_BRINGER,
+  EMPOWERING_MINIONS,
+  EVOCATIONIST,
+  FLAME_STRIDER,
+  FROST_STRIDER,
+  ENTANGLER,
   EXECUTIONER,
-  FRENZIED,
-  CHAOSWEAVER,
-  ARCANE_BUFFER,
-  BONEBREAKER,
-  BOMBARDIER,
+  HEXER,
+  ICE_PRISON,
+  INVULNERABLE,
+  MANA_SIPHONER,
   MAGMA_BARRIER,
   HERALDING_MINIONS,
   NECROMANCER,
-  OVERCHARGED,
   REJUVENATING,
-  GARGANTUAN,
   STORM_STRIDER,
+  TREANT_HORDE,
   ABBERATH_TOUCHED,
-  ARAKAALI_TOUCHED,
+  CORPSE_DETONATOR,
   BRINE_KING_TOUCHED,
   CRYSTAL_SKINNED,
-  PERMAFROST,
   EFFIGY,
   EMPOWERED_ELEMENTS,
-  EMPOWERING_MINIONS,
-  EVOCATIONIST,
-  INVULNERABLE,
-  LUNARIS_TOUCHED,
   SHAKARI_TOUCHED,
-  SOLARIS_TOUCHED,
   SOUL_EATER,
   TEMPORAL_BUBBLE,
-  TREANT_HORDE,
   TRICKSTER,
   TUKOHAMA_TOUCHED,
-  INNOCENCE_TOUCHED,
+  ARAKAALI_TOUCHED,
+  LUNARIS_TOUCHED,
   KITAVA_TOUCHED,
-  STEEL_INFUSED,
-  JUGGERNAUT,
+  SOLARIS_TOUCHED,
+  INNOCENCE_TOUCHED,
 ]
