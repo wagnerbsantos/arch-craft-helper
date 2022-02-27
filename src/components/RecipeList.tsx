@@ -1,16 +1,19 @@
-import { VFlow } from 'bold-ui'
+import { Grid, HFlow, VFlow } from 'bold-ui'
 import { Recipe } from '../model/model'
 import { RecipeBox } from './RecipeBox'
 
 export interface RecipeListProps {
-  key: string
+  id: string
   recipeList: Recipe[]
+  handleClick: (Recipe) => void
 }
 
 export const RecipeList = (props: RecipeListProps) => {
-  const { key, recipeList } = props
+  const { id, recipeList, handleClick } = props
   const list = []
-  recipeList.forEach((recipe, index) => list.push(<RecipeBox key={key + '-' + index} recipe={recipe} />))
+  recipeList.forEach((recipe, index) =>
+    list.push(<RecipeBox key={id + '-' + index} recipe={recipe} handleClick={handleClick} />)
+  )
 
-  return <VFlow>{list}</VFlow>
+  return <Grid wrap>{list}</Grid>
 }
